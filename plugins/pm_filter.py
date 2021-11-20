@@ -661,7 +661,7 @@ async def auto_filter(client, msg, spoll=False):
             url = imdb['url']
         )
     else:
-        cap = f"Here is what i found for your query {search}"
+        cap = f"**🗂️ Movie Name : {search}\nJoin : [✯ Tᴀᴍɪʟ Mᴠ Oꜰꜰᴄɪᴀʟ ✯](https://telegram.dog/joinchat/ZdwNKimd4rxjOTJk**"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
