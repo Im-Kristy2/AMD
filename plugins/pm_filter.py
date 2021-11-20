@@ -661,7 +661,7 @@ async def auto_filter(client, msg, spoll=False):
             url = imdb['url']
         )
     else:
-        cap = f"**🗂️ Movie Name : {search}\nJoin : [✯ Tᴀᴍɪʟ Mᴠ Oꜰꜰᴄɪᴀʟ ✯](https://telegram.dog/joinchat/ZdwNKimd4rxjOTJk**"
+        cap = f"**🗂️ Movie Name : {search}\n🔗 Join :  <a href='https://telegram.dog/joinchat/ZdwNKimd4rxjOTJk'>✯ Tᴀᴍɪʟ Mᴠ Oꜰꜰᴄɪᴀʟ ✯</a>**"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
@@ -711,7 +711,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist)) # removing duplicates
     if not movielist:
-        k = await msg.reply("**spellinG paruga [Google](www.google.com) la Correct spelling pathutu Inga vanthu type panuga\nkila irukurathu la neega thedura movie irukanu paruga**")
+        k = await msg.reply("**spellinG paruga [Google](www.google.com) la Correct spelling pathutu Inga vanthu type panuga\n\nkila irukurathu la neega thedura movie irukanu paruga**")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -723,7 +723,7 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("**spellinG paruga [Google](www.google.com) la Correct spelling pathutu Inga vanthu type panuga\nkila irukurathu la neega thedura movie irukanu paruga**", reply_markup=InlineKeyboardMarkup(btn))
+    await msg.reply("**spellinG paruga [Google](www.google.com) la Correct spelling pathutu Inga vanthu type panuga\n\nkila irukurathu la neega thedura movie irukanu paruga**", reply_markup=InlineKeyboardMarkup(btn))
     
 
 
