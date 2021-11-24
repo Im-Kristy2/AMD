@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://telegram.dog/joinchat/ZdwNKimd4rxjOTJk')
+                InlineKeyboardButton('🤖 Updates', url='https://telegram.dog/amd_linkzz')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -37,8 +37,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('Movie Channel 🔖', url='https://telegram.dog/joinchat/ZdwNKimd4rxjOTJk'),
-            InlineKeyboardButton('📢 Discussion Group', url='https://telegram.dog/TMV_Discuss')
+            InlineKeyboardButton('Movie Channel 🔖', url='https://telegram.dog/amd_linkzz'),
+            InlineKeyboardButton('📢 Discussion Group', url='https://telegram.dog/Amd_discussion')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -73,8 +73,8 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('Movie Channel 🔖', url='https://telegram.dog/joinchat/ZdwNKimd4rxjOTJk'),
-            InlineKeyboardButton('📢 Discussion Group', url='https://telegram.dog/TMV_Discuss')
+            InlineKeyboardButton('Movie Channel 🔖', url='https://telegram.dog/amd_linkzz'),
+            InlineKeyboardButton('📢 Discussion Group', url='https://telegram.dog/Amd_discussion')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
