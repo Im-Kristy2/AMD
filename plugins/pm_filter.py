@@ -433,8 +433,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('Movie Channel 🔖', url='https://telegram.dog/joinchat/ZdwNKimd4rxjOTJk'),
-            InlineKeyboardButton('📢 Discussion Group', url='https://telegram.dog/TMV_Discuss')
+            InlineKeyboardButton('Movie Channel 🔖', url='https://telegram.dog/amd_linkzz'),
+            InlineKeyboardButton('📢 Discussion Group', url='https://telegram.dog/Amd_discussion')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
