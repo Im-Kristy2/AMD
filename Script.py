@@ -2,9 +2,9 @@ class script(object):
     START_TXT = """
 <b>I am A Auto Filter Bot 📌
 
-Im Currenly Working For <a href='https://telegram.dog/joinchat/ZdwNKimd4rxjOTJk'>✯ Tᴀᴍɪʟ Mᴠ Oꜰꜰᴄɪᴀʟ ✯</a>& i Can't Work In your Group So Dont Try It 😉
+Im Currenly Working For <a href='https://telegram.dog/amd_linkzZ'>【𝗔𝗠𝗗】🅻🅸🅽🅺🆉🆉</a>& i Can't Work In your Group So Dont Try It 😉
 
-👨‍💻 Developer : <a href='https://telegram.dog/I_m_Kristy'>✯°• Iᴍ Kʀɪsᴛʏ கிறிஸ்டி Via @HiroshiBots •°✯ « Tᴇᴀᴍ Kʀɪsᴛʏ »</a></b>"""
+👨‍💻 Developer : <a href='https://telegram.dog/crazy_phoenix'>✰°｡• 𝗣𝗛𝗢𝗘𝗡𝗜𝗫 •｡°✰</a></b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = "**Nothing Here Join  <a href='https://telegram.dog/joinchat/ZdwNKimd4rxjOTJk'>✯ Tᴀᴍɪʟ Mᴠ Oꜰꜰᴄɪᴀʟ ✯</a>**"
